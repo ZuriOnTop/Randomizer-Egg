@@ -37,8 +37,6 @@ local function glitchLabelEffect(label)
     end)()
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ZuriOnTop/Egg-Randomizer-ESP/refs/heads/main/ESP"))()
-
 local function applyEggESP(eggModel, petName)
     local existingLabel = eggModel:FindFirstChild("PetBillboard", true)
     if existingLabel then existingLabel:Destroy() end
